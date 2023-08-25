@@ -1,0 +1,46 @@
+.logo1 {
+  width: 150px;
+}
+header {
+  background-color: white;
+  font-size: 300%;
+  font-family: "Franklin Gothic Medium";
+  position: relative;
+  left: 3%;
+}
+body {
+  background-color: white;
+}
+.gridPadre {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.contenedor {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.MercadoLiebre {
+  text-align: center;
+  margin-top: 10%;
+}
+.quienes {
+  font-size: 500%;
+}
+.pedi {
+  font-size: 200%;
+  margin-top: 10%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+}
+.pie {
+  margin-top: 10%;
+}
+.formulario {
+  margin-top: 10%;
+}

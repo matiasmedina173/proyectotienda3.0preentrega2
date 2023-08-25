@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mercado Liebre</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="container-fluid bg-white">
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img
+              class="img-fluid me-5 logo1"
+              src="img/liebre logo.png"
+              alt="Logo Liebre"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav menunav">
+              <a class="nav-link activ ms-5" aria-current="page" href="#"
+                >Productos</a
+              >
+              <a class="nav-link ms-5" href="#">Ofertas</a>
+              <a class="nav-link ms-5" href="#">Sucursales</a>
+              <a class="nav-link ms-5 me-5" href="#">Contacto</a>
+              <a class="navbar-brand" href="#"
+                ><img
+                  class="me-5 logo1"
+                  src="img/liebre logo.png"
+                  alt="Logo Carrito"
+              /></a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="carousel">
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="img/carouselimg1.webp"
+              class="d-block w-100"
+              alt="promocion1"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/carouselimg2.webp"
+              class="d-block w-100"
+              alt="promocion2"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/carouselimg3.webp"
+              class="d-block w-100"
+              alt="promocion3"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section class="MercadoLiebre">
+      <h1 class="quienes">¿Quienes Somos?</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero fugit
+        reprehenderit atque, excepturi nemo quisquam numquam veniam accusamus,
+        dolorem, quasi voluptas modi? Amet tempore molestiae perferendis, vitae
+        sit expedita labore. Lorem ipsum dolor sit amet, consectetur adipisicing
+        elit. Fugit nihil veritatis corporis molestias placeat. Ullam possimus
+        doloremque dolorum rem culpa, eius incidunt quae earum autem quasi
+        aperiam commodi voluptatum quas. Lorem ipsum dolor sit, amet consectetur
+        adipisicing elit. Quod, quos necessitatibus, amet voluptatibus iste ut
+        libero exercitationem culpa voluptatum alias autem in suscipit
+        obcaecati, quis sequi hic? Voluptatum, totam quibusdam?
+      </p>
+      <h1 class="pedi">Pedi Tu LiebreCard</h1>
+    </section>
+    <section class="gridPadre">
+      <div>
+        <img
+          src="img/imgtarjetaliebre2.jpeg"
+          class="img-fluid w-100"
+          alt="tarjeta LiebreCard"
+        />
+      </div>
+      <div class="formulario">
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="Nombre" class="form-label">Nombre y Apellido</label>
+            <input type="text" class="form-control" id="Nombre" />
+          </div>
+          <div class="col-md-6">
+            <label for="email" class="form-label">Correo Electrónico</label>
+            <input type="email" class="form-control" id="email" />
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Dirección 1</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputAddress"
+              placeholder="1234 Calle Principal"
+            />
+          </div>
+          <div class="col-12">
+            <label for="inputAddress2" class="form-label">Dirección 2</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputAddress2"
+              placeholder="Departamento, piso.."
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">Ciudad</label>
+            <input type="text" class="form-control" id="inputCity" />
+          </div>
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">Provincia</label>
+            <select id="inputState" class="form-select">
+              <option selected>Choose...</option>
+              <option>Buenos Aires</option>
+              <option>CABA</option>
+              <option>Catamarca</option>
+              <option>Chaco</option>
+              <option>Chubut</option>
+              <option>Cordoba</option>
+              <option>Corrientes</option>
+              <option>Entre Rios</option>
+              <option>Formosa</option>
+              <option>Jujuy</option>
+              <option>La Pampa</option>
+              <option>La Rioja</option>
+              <option>Mendoza</option>
+              <option>Misiones</option>
+              <option>Neuquen</option>
+              <option>Rio Negro</option>
+              <option>Salta</option>
+              <option>San Juan</option>
+              <option>San Luis</option>
+              <option>Santa Cruz</option>
+              <option>Santa Fe</option>
+              <option>Santiago del Estero</option>
+              <option>
+                Tierra del Fuego, Antartida e Islas del Atlantico Sur
+              </option>
+              <option>Tucuman</option>
+            </select>
+          </div>
+          <div class="col-md-2">
+            <label for="inputZip" class="form-label">CP</label>
+            <input type="text" class="form-control" id="inputZip" />
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck" />
+              <label class="form-check-label" for="gridCheck">
+                He leido y acepto los terminos y condiciones.
+              </label>
+            </div>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">Pedir Tarjeta</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <div class="container pie">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <div class="col-md-4 d-flex align-items-center">
+          <a
+            href="img/liebre logo.png"
+            class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+          >
+            <svg class="bi" width="30" height="24">
+              <use xlink:href="#MercadoLiebre" />
+            </svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-body-secondary"
+            >&copy; Mercado Liebre</span
+          >
+        </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
