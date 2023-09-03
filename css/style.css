@@ -30,7 +30,7 @@ body {
   margin-top: 10%;
 }
 .quienes {
-  font-size: 500%;
+  font-size: 400%;
 }
 .pedi {
   font-size: 200%;
@@ -43,4 +43,12 @@ body {
 }
 .formulario {
   margin-top: 10%;
+}
+.productoss {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+}
+.card {
+  margin-bottom: 10%;
 }
