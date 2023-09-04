@@ -44,11 +44,30 @@ body {
 .formulario {
   margin-top: 10%;
 }
-.productoss {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(8, 1fr);
-}
+
 .card {
   margin-bottom: 10%;
+  border: solid;
+}
+.card:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.custom-search {
+  border: 2px solid black;
+  border-radius: 25px;
+}
+
+.custom-search input[type="search"] {
+  border: none;
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 16px;
+}
+.productoss {
+  margin-top: 5%;
+}
+.page-link {
+  color: black;
 }
