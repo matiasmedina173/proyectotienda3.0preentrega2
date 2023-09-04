@@ -1,12 +1,34 @@
-.logo1 {
-  width: 150px;
-}
+/* Estilos para el header */
 header {
-  background-color: white;
-  font-size: 300%;
-  font-family: "Franklin Gothic Medium";
-  position: relative;
-  left: 3%;
+  background-color: #333; /* Cambia el color de fondo según tus preferencias */
+  color: #fff; /* Cambia el color del texto según tus preferencias */
+  padding: 15px 0; /* Espaciado interno superior e inferior */
+}
+
+/* Estilos para el logotipo */
+.navbar-brand {
+  font-size: 24px; /* Tamaño de fuente del logotipo */
+}
+
+/* Estilos para los enlaces de navegación */
+.navbar-nav .nav-link {
+  color: #333; /* Cambia el color del texto de los enlaces */
+  margin-right: 20px; /* Espaciado entre los enlaces */
+}
+
+/* Estilos para el botón de hamburguesa en pantallas pequeñas */
+.navbar-toggler-icon {
+  color: #fff; /* Color del ícono del botón de hamburguesa */
+}
+
+/* Cambiar color al botón de hamburguesa al ser activado */
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+  background-color: #fff; /* Cambiar color del ícono al activar el botón */
+}
+
+/* Estilo para el botón de hamburguesa cuando está inactivo */
+.navbar-toggler[aria-expanded="false"] .navbar-toggler-icon {
+  background-color: #fff; /* Color del ícono cuando está inactivo */
 }
 body {
   background-color: white;
